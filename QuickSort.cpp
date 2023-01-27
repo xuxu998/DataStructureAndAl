@@ -33,7 +33,7 @@ int partition(int arr[],int head,int tail)
         swap(arr[i],arr[tail]);
         return i;
     #endif
-    #ifdef HOARE_PARTITIOn
+    #ifdef HOARE_PARTITION
     #endif
 }
 void QuickSort(int arr[],int head,int tail)
