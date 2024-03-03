@@ -21,22 +21,26 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
-  "C_Cpp_Runner.includeSearch": [
-    "*",
-    "**/*"
-  ],
-  "C_Cpp_Runner.excludeSearch": [
-    "**/build",
-    "**/build/**",
-    "**/.*",
-    "**/.*/**",
-    "**/.vscode",
-    "**/.vscode/**"
-  ],
+  "C_Cpp_Runner.includeSearch": ["*", "**/*"],
+  "C_Cpp_Runner.excludeSearch": ["**/build", "**/build/**", "**/.*", "**/.*/**", "**/.vscode", "**/.vscode/**"],
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
     "string": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "algorithm": "cpp",
+    "*.tcc": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "vector": "cpp",
+    "valarray": "cpp",
+    "variant": "cpp",
+    "iosfwd": "cpp",
+    "functional": "cpp"
   }
 }
