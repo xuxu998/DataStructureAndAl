@@ -11,7 +11,7 @@ using namespace std;
 #define index_rand index(rand_engine)
 #define update_query    1
 #define get_max_query   2
-#define seed_change rand_engine.seed(chrono::system_clock::now().time_since_epoch().count());
+#define seed_change rand_engine.seed(chrono::system_clock::now().time_since_epoch().count() % 1000007);
 
 uniform_int_distribution<int> int_uni_distribution_range(int lower_bound, int upper_bound)
 {
